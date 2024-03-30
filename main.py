@@ -24,3 +24,21 @@ class Vorior():
         print(f" Сила воина {self.power}")
         print(f" Выносливость воина {self.endurance}")
         print(f" Цвет волос воина {self.hair_color}")
+
+
+var1 = Vorior("Стёпа", 60, 78, "Коричневый")
+var2 = Vorior("Егор", 15, 60, "Белый")
+
+var1.sleep()
+var1.eat()
+var1.hit()
+var1.walk()
+var1.info()
+
+var2.sleep()
+var2.eat()
+var2.hit()
+var2.walk()
+var2.info()
+
+
